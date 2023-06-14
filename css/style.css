@@ -1,0 +1,21 @@
+body {
+    background-color: #333;
+}
+
+h1 {
+    font-family: 'satoshilight', Arial, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: lightblue;
+    margin-left: 20px;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
