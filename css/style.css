@@ -1,17 +1,38 @@
+@font-face {
+    font-family: "satoshilight";
+    src: url("https://thevuckovic.com/css/fonts/satoshi-light-webfont.woff") format("woff"),
+        url("https://thevuckovic.com/css/fonts/Satoshi-Light.otf") format("opentype");
+}
+
 body {
     background-color: #333;
+}
+
+div {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }
 
 h1 {
     font-family: 'satoshilight', Arial, sans-serif;
     font-weight: normal;
     font-style: normal;
-    color: lightblue;
+    font-size: 50pt;
+    color: white;
     margin-left: 20px;
 }
 
+p {
+    color: white;
+    font-size: 24pt;
+}
+
 .blink_me {
-    animation: blinker 1s linear infinite;
+    animation: blinker 3s linear infinite;
 }
 
 @keyframes blinker {
