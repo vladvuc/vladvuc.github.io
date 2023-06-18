@@ -7,6 +7,7 @@ $(document).ready(function () {
         $('#thirdBtn').removeClass('active');
         $('#home').removeClass('d-none');
         $('#second').addClass('d-none');
+        $('#third').addClass('d-none');
     });
 });
 
@@ -18,8 +19,8 @@ $(document).ready(function () {
         $('#homeBtn').removeClass('active');
         $('#thirdBtn').removeClass('active');
         $('#home').addClass('d-none');
-        $('#third').addClass('d-none');
         $('#second').removeClass('d-none');
+        $('#third').addClass('d-none');
     });
 });
 
