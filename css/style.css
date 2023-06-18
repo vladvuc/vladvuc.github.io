@@ -51,7 +51,7 @@ a {
 .typewriter h1 {
     overflow: hidden;
     /* Ensures the content is not revealed until the animation */
-    border-right: .15em solid orange;
+    border-right: .15em solid #C92A2A;
     /* The typwriter cursor */
     white-space: nowrap;
     /* Keeps the content on a single line */
@@ -62,6 +62,19 @@ a {
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+}
+
+.typewriter h2 {
+    align-self: right;
+    overflow: hidden;
+    /* Ensures the content is not revealed until the animation */
+    /* The typwriter cursor */
+    white-space: nowrap;
+    /* Keeps the content on a single line */
+    margin: 0 auto;
+    /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em;
+    /* Adjust as needed */
 }
 
 /* The typing effect */
@@ -84,6 +97,6 @@ a {
     }
 
     50% {
-        border-color: orange;
+        border-color: #C92A2A;
     }
 }
