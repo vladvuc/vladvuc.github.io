@@ -1,0 +1,17 @@
+h1,
+h2,
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: #C92A2A;
+}
+
+h2 {
+    color: #E03131;
+}
+
+h3 {
+    color: #FA5252;
+}
