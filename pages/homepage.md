@@ -1,8 +1,3 @@
----
-name: "Venus"
-discoverer: "Galileo Galilei"
----
-
 # The beginning
 
 Once upon a time, in a small town nestled amidst rolling hills, there lived a creative and ambitious individual boy. The boy had a passion for storytelling and wanted to share her tales with the world. However, she realized that traditional means of publishing limited her reach.
