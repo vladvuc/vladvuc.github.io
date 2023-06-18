@@ -18,6 +18,7 @@ $(document).ready(function () {
         $('#homeBtn').removeClass('active');
         $('#thirdBtn').removeClass('active');
         $('#home').addClass('d-none');
+        $('#third').addClass('d-none');
         $('#second').removeClass('d-none');
     });
 });
