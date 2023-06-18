@@ -1,3 +1,8 @@
+---
+name: "Venus"
+discoverer: "Galileo Galilei"
+---
+
 # The beginning
 
 Once upon a time, in a small town nestled amidst rolling hills, there lived a creative and ambitious individual boy. The boy had a passion for storytelling and wanted to share her tales with the world. However, she realized that traditional means of publishing limited her reach.
@@ -28,10 +33,14 @@ where allergy IS NULL;
 
 H<sub>2</sub>O
 
-\begin{gather*}
-a_1=b_1+c_1\\
-a_2=b_2+c_2-d_2+e_2
-\end{gather*}
+## Trying to figure out LaTeX
+
+```latex
+a_1 = b_1 + c_1  
+a_2 = b_2 + c_2 - d_2 + e_2
+```
+
+$a
 
 Atoms are the fundamental building blocks of matter, the smallest units that retain the characteristics of an element. Composed of a dense nucleus containing protons and neutrons, surrounded by a cloud of electrons, atoms exhibit incredible diversity and form the basis of everything we see in the universe. They combine and interact to create molecules, which in turn give rise to the vast array of substances and materials around us. Understanding the behavior and properties of atoms has been crucial in advancing fields such as chemistry and physics, shaping our understanding of the world at the most fundamental level. Atoms are remarkable in their simplicity yet hold the key to unraveling the complexities of the universe.
 
