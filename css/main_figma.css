@@ -21,15 +21,14 @@ textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-  h1 {
+h1 {
     font-size: 26px;
     font-family: 'Roboto', sans-serif;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 8px;
     font-family: 'Roboto', sans-serif;
-    color: #3e8e41;
 }
 
 .custom-ratio {
