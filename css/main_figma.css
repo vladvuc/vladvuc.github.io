@@ -26,6 +26,12 @@ textarea {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: #3e8e41;
+}
+
 .custom-ratio {
     display: flex;
     align-items: bottom;
