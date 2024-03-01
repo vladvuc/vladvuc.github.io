@@ -43,7 +43,7 @@ h2 {
     width: 80px;
   }
 
-.switch {
+/* .switch {
     display: flex;
     align-items: bottom;
     margin-bottom: 10px;
@@ -51,7 +51,7 @@ h2 {
 
 .switch__label {
     margin-left: 5px;
-  }
+  } */
 
 .button {
     margin-top: 15px;
