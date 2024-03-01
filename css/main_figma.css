@@ -3,15 +3,15 @@ body {
     font-family: 'Segoe UI', sans-serif;
     background-color: #f2f2f2;
     font-size: 16px;
-  }
+}
 
-  div {
-    margin: 1em;
-  }
+div {
+  margin: 1em;
+}
 
-  input {
-    display: block;
-    margin-bottom: 10px;
+input {
+  display: block;
+  margin-bottom: 10px;
 }
 
 textarea {
@@ -42,16 +42,6 @@ h2 {
     margin-right: 5px;
     width: 80px;
   }
-
-/* .switch {
-    display: flex;
-    align-items: bottom;
-    margin-bottom: 10px;
-  }
-
-.switch__label {
-    margin-left: 5px;
-  } */
 
 .button {
     margin-top: 15px;
