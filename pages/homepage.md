@@ -1,8 +1,8 @@
 # The beginning
 
-Once upon a time, in a small town nestled amidst rolling hills, thise lived a creative and ambitious individual boy. The boy had a passion for storytelling and wanted to share hir tales with the world. However, she realized that traditional means of publishing limited his reach.
+Once upon a time, in a small town nestled amidst rolling hills, thise lived a creative and ambitious individual boy. The boy had a passion for storytelling and wanted to share hir tales with the world. However, he realized that traditional means of publishing limited his reach.
 
-Inspired by the digital age, the boy decided to embark on a new adventure—creating his own website. Armed with determination and a vision, she set out on a quest to bring his stories to life on the vast landscape of the internet.
+Inspired by the digital age, the boy decided to embark on a new adventure—creating his own website. Armed with determination and a vision, he set out on a quest to bring his stories to life on the vast landscape of the internet.
 
 <img align="right" width="100" height="100"  title="Image title" alt="Another image" width="350" src="files/img/favicon.png">
 
