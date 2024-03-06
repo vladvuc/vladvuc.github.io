@@ -109,3 +109,17 @@ h2 {
   background-color: #3e8e41;
 }
 
+.note {
+  background-color: #ffff88; /* Light yellow background */
+  border-left: 6px solid #ffeb3b; /* Bright yellow left border */
+  margin: 20px 0; /* Adds some margin around the note */
+  padding: 10px 15px; /* Adds some padding inside the note */
+  border-radius: 5px; /* Slightly rounded corners for a softer look */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Adds a subtle shadow to make the note "pop" */
+  font-family: Arial, sans-serif; /* Sets the font style */
+  line-height: 1.5; /* Improves readability by increasing line spacing */
+}
+
+.note p {
+  margin: 0; /* Removes the default margin from the paragraph */
+}
