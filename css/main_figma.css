@@ -52,11 +52,12 @@ h2 {
 .generate-button {
   background-color: black;          /* Button background */
   color: white;                     /* Text color */
-  padding: 10px 25px;             /* Padding around the text */
-  font-size: 16px;                    /* Text size */
-  border: none;                       /* No border */
-  cursor: pointer;                    /* Cursor to pointer to indicate it's clickable */
-  transition: background-color 0.3s;  /* Smooth transition for hover effect */
+  padding: 10px 25px;                 /* Padding around the text */
+  font-size: 16px;                   
+  border: none;                       
+  cursor: pointer;                    
+  transition: background-color 0.3s;  
+  display: inline-block;;
 }
 
 .generate-button:hover {
@@ -120,6 +121,7 @@ h2 {
   border-left: 6px solid #ffeb3b; /* Bright yellow left border */
   margin: 20px 0; /* Adds some margin around the note */
   padding: 10px 15px; /* Adds some padding inside the note */
+  border-radius: 25;
   border-radius: 5px; /* Slightly rounded corners for a softer look */
   box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Adds a subtle shadow to make the note "pop" */
   font-family: Arial, sans-serif; /* Sets the font style */
