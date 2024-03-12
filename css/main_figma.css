@@ -90,6 +90,17 @@ h2 {
 
 }
 
+.info-box {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+.info-text {
+  color: gray;
+  font-size: 0.9rem; 
+}
+
 /* Add dropdown-content CSS */
 
 .dropdown-content {
