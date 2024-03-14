@@ -22,7 +22,7 @@ textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-textarea.disabled {
+textarea:disabled {
     background-color: #a7a7a7;
     color: #666;
 }
