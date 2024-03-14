@@ -15,6 +15,12 @@ input {
   size: 350px;
 }
 
+textarea:disabled {
+  background-color: #a7a7a7;
+  color: #666;
+  border: 1px solid #888;
+}
+
 textarea {
     display: block;
     size: 350px;
@@ -22,10 +28,6 @@ textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-textarea:disabled {
-    background-color: #a7a7a7;
-    color: #666;
-}
 
 h1 {
     font-size: 26px;
