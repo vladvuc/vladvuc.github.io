@@ -16,8 +16,8 @@ input {
 }
 
 textarea:disabled {
-  background-color: #a7a7a7;
-  color: #666;
+  background-color: #acccac;
+  color: #ccc;
   border: 1px solid #888;
 }
 
@@ -169,5 +169,50 @@ hr {
 }
 
 .note p {
-  margin: 0; /* Removes the default margin from the paragraph */
+  margin: 0; 
+
+
+#dynamicFormats {
+  height: auto;
+  overflow: auto;
 }
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border-top: none;
+}
+
+#infoMessage {
+      display: none;
+      border: 1px solid #ccc;
+      background: #f9f9f9;
+      padding: 5px;
+      position: absolute;
+      left: 20px;
+      top: 5px;
+  }
