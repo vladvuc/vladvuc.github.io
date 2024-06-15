@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, Vlad</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        .centered-text {
+            text-align: center;
+            font-size: 2em;
+        }
+
+        @media (max-width: 600px) {
+            .centered-text {
+                font-size: 1.5em;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .centered-text {
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-text">
+        Hello, Vlad
+    </div>
+</body>
+</html>
