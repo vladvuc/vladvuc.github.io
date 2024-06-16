@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Bootstrap Website</title>
+    <title>Methodology</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Hybrid Intelligence in Software</a>
+        <a class="navbar-brand" href="#">Hybrid Intelligence in Software</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -37,54 +37,23 @@
 
     <!-- Main Content -->
     <div class="container mt-4">
-        <!-- Home Page Content -->
-        <div id="home">
-            <h1>Introduction</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
-
-        <!-- Hi-level Ontology Page Content -->
-        <div id="hilevel_ontology">
-            <h1>Hi-level Ontology</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-            <div>
-                <h2>Graph</h2>
-                <p>A -> B</p>
-                <p>B -> C</p>
-                <p>C -> A</p>
-            </div>
-            <div id="graph-container">
-              <iframe src="simple_graph.html" style="width:100%; height:100%; border:none;"></iframe>
-            </div>
-        </div>
-
-        <div style="height: 100px;"></div>
+        <h1>Methodology</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
+
+    <div style="height: 100px;"></div>
 
     <!-- Footer -->
     <footer class="bg-light text-center text-lg-start mt-4">
-      <div class="text-center p-3">
-        Made by <a href="http://thevuckovic.com" target="_blank">Vladimir Vučković</a>, June 2024 | Vrije Universiteit Amsterdam
-    </div>
+        <div class="text-center p-3">
+            Made by Vladimir Vučković, June 2024 | Vrije Universiteit Amsterdam
+        </div>
     </footer>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-    <script src="https://d3js.org/d3.v4.js"></script>
-    <script>
-    fetch('md/home.md')
-      .then(response => response.text())
-      .then(md => {
-          // Convert markdown to HTML
-          const html = marked(md);
-
-
-      });</script>
 </body>
 </html>

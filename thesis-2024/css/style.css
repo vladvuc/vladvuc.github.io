@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'Glacial Indifference Bold';
+    src: url('GlacialIndifference-Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Glacial Indifference Regular';
+    src: url('GlacialIndifference-Regular.otf') format('opentype');
+}
+
+body {
+    padding-top: 0px;
+    font-family: 'Glacial Indifference Regular', sans-serif;
+    font-size: 14pt;
+}
+
+h1 {
+    font-family: 'Glacial Indifference Bold', sans-serif;
+}
+
+a {
+    color: #ffb702;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9A130E;
+    text-decoration: none;
+}
+
+/* Navbar background color */
+.navbar {
+    position: sticky;
+    font-family: 'Lato', sans-serif;
+    top: 0;
+    z-index: 1000;
+    background-color: #023047 !important;
+}
+
+/* Navbar brand and link colors */
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #219EBC !important;
+}
+
+/* Navbar link hover color */
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    color: #FFA500 !important; /* Optional: Change to a color of your choice */
+}
+
+/* Dropdown menu link colors */
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: #023047 !important;
+}
+
+/* Dropdown menu link hover background color */
+.navbar-nav .dropdown-menu .dropdown-item:hover {
+    background-color: #219EBC !important;
+    color: #ffffff !important;
+}
+
+#graph-container {
+    width: 960px;
+    height: 600px;
+    border: 1px solid gray; 
+}
+
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+}
+
+.nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+
+.nodes text {
+    font: 10px sans-serif;
+    pointer-events: none;
+}
+
+footer {
+    position: fixed;
+    font-family: 'Lato', sans-serif;
+    bottom: 0;
+    width: 100%;
+}
+
+footer div {
+    background-color: #023047;
+    color: #219EBC;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}

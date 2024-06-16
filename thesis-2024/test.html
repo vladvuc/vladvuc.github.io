@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.0.4/vis-network.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.0.4/vis-network.min.css" type="text/css">
+  <style type="text/css">
+    #mynetwork {
+      width: 100%;
+      height: 600px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+<div id="mynetwork"></div>
+<script type="text/javascript">
+  var nodes = new vis.DataSet([
+    {id: 'A', label: 'A'},
+    {id: 'B', label: 'B'},
+    {id: 'C', label: 'C'}
+  ]);
+
+  var edges = new vis.DataSet([
+    {from: 'A', to: 'B'},
+    {from: 'B', to: 'C'},
+    {from: 'C', to: 'A'},
+    {from: 'A', to: 'A'}
+  ]);
+
+  var container = document.getElementById('mynetwork');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {};
+  var network = new vis.Network(container, data, options);
+
+  network.on("click", function (params) {
+    var nodeId = params.nodes[0];
+    if (nodeId) {
+      var connectedNodeIds = network.getConnectedNodes(nodeId);
+      var allNodeIds = nodes.getIds();
+      var hideNodeIds = allNodeIds.filter(id => id !== nodeId && !connectedNodeIds.includes(id));
+      
+      hideNodeIds.forEach(id => {
+        nodes.update({id: id, hidden: true});
+      });
+      
+      connectedNodeIds.forEach(id => {
+        nodes.update({id: id, hidden: false});
+      });
+      
+      nodes.update({id: nodeId, hidden: false});
+    }
+  });
+</script>
+</body>
+</html>
