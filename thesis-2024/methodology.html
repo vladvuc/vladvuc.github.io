@@ -1,59 +1,169 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Methodology</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hybrid Intelligence [Thesis 2024] > Methodology</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Hybrid Intelligence in Software</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="methodology.html">Methodology</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Ontologies
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="ontology.html#software-engineering">Software Engineering</a>
-                        <a class="dropdown-item" href="ontology.html#project-management">Project Management</a>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-container">
+        <a class="navbar-brand" href="index.html"
+        >Hybrid Intelligence in Software
+        <img
+          src="img/logo.png"
+          width="30"
+          height="30"
+          class="d-inline-block align-top"
+          alt=""
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="methodology.html">Methodology</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Scenarios
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="scenarios.html#software-engineering"
+                >Software Engineering</a
+              >
+              <a class="dropdown-item" href="scenarios.html#project-management"
+                >Project Management</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+      </nav>
 
     <!-- Main Content -->
     <div class="container mt-4">
-        <h1>Methodology</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
+      <h1>Methodology</h1>
+      <section id="methodology">
+        <h2>Unreveling the Method to the Hybrid-ness</h2>
 
-    <div style="height: 100px;"></div>
+        <p>
+            In this chapter, we go on a journey into the heart of this thesis's research. We'll find and define the tools, ontologies and frameworks for the research, which will guide our exploration.
+        </p>
+
+        <p>
+        This section is a roadmap, tracing our path from the initial spark of curiosity to the final knowledge.
+        </p>
+      </section>
+
+      <div class="step">
+        <span class="step-number">Step 1:</span> <b>Creating</b> the high level
+        ontology for scenarios
+      </div>
+
+      <div id="graph-container">
+        <iframe
+          src="simple_graph.html"
+          style="width: 100%; height: 100%; border: none"
+        ></iframe>
+      </div>
+
+      <div class="step">
+        <span class="step-number">Step 2:</span> Populate the scenario with
+        <b>entities</b>, <b>classes</b> and <b>properties</b>
+      </div>
+      <div class="step">
+        <span class="step-number">Step 3:</span> <b>Define the workflows</b> for
+        each scenario
+      </div>
+
+      <div id="workflow-se">
+        <figure>
+          <img
+            src="img/SoftwareEngineeringFlow.jpg"
+            alt="Software Engineering Workflow"
+            style="width: 100%"
+          />
+          <figcaption>
+            <b>Figure 1</b>: <i>Software Engineering Flow</i>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="step">
+        <span class="step-number">Step 4:</span> <b>Visualizing</b> the results
+        via graphs and input in Protégé
+      </div>
+      <div class="step">
+        <span class="step-number">Step 5:</span>
+        <b>Define design choices</b> and tasks and clarify each HI task
+      </div>
+      <div class="step">
+        <span class="step-number">Step 6:</span> <b>Evaluate</b> by applying the
+        HI-ness metric
+      </div>
+
+      <div class="container">
+        <div class="row md-8"></div>
+        <div class="row md-4"></div>
+      </div>
+      <div class="container text-center">
+        <h2>Example for Project Management</h2>
+        <p>Explore full table at <a href="scenarios.html#project-management">here</a>.</p>
+       </div>
+      <div class="container mt-12" id="tablePM"></div>
+    </div>
+    <button onclick="topFunction()" id="toTop" title="Go to top">&#8679;</button>
+    <div style="height: 100px"></div>
 
     <!-- Footer -->
     <footer class="bg-light text-center text-lg-start mt-4">
-        <div class="text-center p-3">
-            Made by Vladimir Vučković, June 2024 | Vrije Universiteit Amsterdam
-        </div>
+      <div class="text-center p-3">
+        Made by
+        <a href="http://thevuckovic.com" target="_blank">Vladimir Vučković</a>,
+        June 2024 | Vrije Universiteit Amsterdam
+      </div>
     </footer>
 
     <!-- Bootstrap JS and dependencies -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-</body>
+
+    <script src="js/script.js"></script>
+    <script>
+      fetch("library/table_example.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("tablePM").innerHTML = data;
+        })
+        .catch((error) => console.error(error));
+    </script>
+  </body>
 </html>
