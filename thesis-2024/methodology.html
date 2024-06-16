@@ -87,11 +87,17 @@
         ontology for scenarios
       </div>
 
+
+
       <div id="graph-container">
         <iframe
           src="simple_graph.html"
           style="width: 100%; height: 100%; border: none"
         ></iframe>
+      </div>
+
+      <div id="graph">
+
       </div>
 
       <div class="step">
@@ -164,6 +170,33 @@
           document.getElementById("tablePM").innerHTML = data;
         })
         .catch((error) => console.error(error));
+
+function adjustIframeSize() {
+  let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  let isSmallScreen = window.innerWidth < 768; 
+  let graphContainer = document.getElementById('graph-container');
+
+  if ((isMobile || isSmallScreen) && graphContainer) {
+    let iframe = graphContainer.querySelector('iframe');
+    if (iframe) {
+      iframe.style.width = '50%';
+      iframe.style.height = '600px'; // Adjust this value as needed
+    }
+  } else if (graphContainer) {
+    let iframe = graphContainer.querySelector('iframe');
+    if (iframe) {
+      iframe.style.width = '100%';
+      iframe.style.height = '100%'; // Adjust this value as needed
+    }
+  }
+}
+
+window.onload = adjustIframeSize;
+window.onresize = adjustIframeSize;
+
+window.onload = adjustIframeSize;
+window.onresize = adjustIframeSize;
+
     </script>
   </body>
 </html>
