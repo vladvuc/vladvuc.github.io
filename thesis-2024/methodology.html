@@ -14,7 +14,7 @@
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="nav-container">
         <a class="navbar-brand" href="index.html"
-        >Hybrid Intelligence in Software
+      >Hybrid Intelligence<span class="line-break"></span> in Software
         <img
           src="img/logo.png"
           width="30"
@@ -88,16 +88,11 @@
       </div>
 
 
-
       <div id="graph-container">
         <iframe
           src="simple_graph.html"
-          style="width: 100%; height: 100%; border: none"
+          style="height: 100%; border: none"
         ></iframe>
-      </div>
-
-      <div id="graph">
-
       </div>
 
       <div class="step">
@@ -143,7 +138,9 @@
         <h2>Example for Project Management</h2>
         <p>Explore full table at <a href="scenarios.html#project-management">here</a>.</p>
        </div>
-      <div class="container mt-12" id="tablePM"></div>
+      <div class="container mt-12 table-responsive" id="tablePM">
+        
+      </div>
     </div>
     <button onclick="topFunction()" id="toTop" title="Go to top">&#8679;</button>
     <div style="height: 100px"></div>
@@ -171,31 +168,31 @@
         })
         .catch((error) => console.error(error));
 
-function adjustIframeSize() {
-  let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-  let isSmallScreen = window.innerWidth < 768; 
-  let graphContainer = document.getElementById('graph-container');
+// function adjustIframeSize() {
+//   let isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+//   let isSmallScreen = window.innerWidth < 768; 
+//   let graphContainer = document.getElementById('graph-container');
 
-  if ((isMobile || isSmallScreen) && graphContainer) {
-    let iframe = graphContainer.querySelector('iframe');
-    if (iframe) {
-      iframe.style.width = '50%';
-      iframe.style.height = '600px'; // Adjust this value as needed
-    }
-  } else if (graphContainer) {
-    let iframe = graphContainer.querySelector('iframe');
-    if (iframe) {
-      iframe.style.width = '100%';
-      iframe.style.height = '100%'; // Adjust this value as needed
-    }
-  }
-}
+//   if ((isMobile || isSmallScreen) && graphContainer) {
+//     let iframe = graphContainer.querySelector('iframe');
+//     if (iframe) {
+//       iframe.style.width = '100%';
+//       iframe.style.height = '600px'; // Adjust this value as needed
+//     }
+//   } else if (graphContainer) {
+//     let iframe = graphContainer.querySelector('iframe');
+//     if (iframe) {
+//       iframe.style.width = '100%';
+//       iframe.style.height = '100%'; // Adjust this value as needed
+//     }
+//   }
+// }
 
-window.onload = adjustIframeSize;
-window.onresize = adjustIframeSize;
+// window.onload = adjustIframeSize;
+// window.onresize = adjustIframeSize;
 
-window.onload = adjustIframeSize;
-window.onresize = adjustIframeSize;
+// window.onload = adjustIframeSize;
+// window.onresize = adjustIframeSize;
 
     </script>
   </body>

@@ -13,6 +13,23 @@
     src: url("cmunbx.ttf") format("truetype");
 }
 
+@media (max-width: 576px) {
+    .navbar-brand .line-break {
+        display: block;
+    }
+    .responsive-table {
+        font-size: 5px;
+    }
+}
+@media (min-width: 577px) {
+    .navbar-brand .line-break {
+        display: none;
+    }
+    .responsive-table {
+        font-size: 5px;
+    }
+}
+
 body {
   padding-top: 0px;
   font-family: "Glacial Indifference Regular", sans-serif;
@@ -67,7 +84,8 @@ a:hover {
     cursor: pointer; 
     padding: 15px; 
     border-radius: 10px; 
-    font-size: 18px; 
+    font-size: 18px;
+    margin-bottom: 70px;
   }
   
   #toTop:hover {
@@ -88,8 +106,6 @@ a:hover {
 .navbar-nav .nav-link {
   color: #219ebc !important;
 }
-
-
 
 /* Navbar link hover color */
 .navbar-nav .nav-link:hover,
@@ -177,9 +193,12 @@ hr {
 table {
   width: 100%;
   border-collapse: collapse;
+  position: sticky;
+  top: 0;
   margin: 50px 0;
   font-size: 18px;
   text-align: left;
+  z-index: 2;
 }
 th,
 td {
@@ -247,4 +266,13 @@ iframe {
     #tablePM table {
       width: 25%;
     }
+  }
+
+  #graph-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  #graph-container iframe {
+    width: 100%;
   }
