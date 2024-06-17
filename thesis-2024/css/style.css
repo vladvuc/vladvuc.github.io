@@ -281,3 +281,14 @@ iframe {
     height: 24px; /* Adjust as needed */
     width: 24px; /* Adjust as needed */
   }
+
+  .phases   {
+    text-align: center;
+    color: #CEE841;
+    background-color: #219ebc;
+  }
+
+  .result-style-table {
+    background-color: #EBEEF0;
+    color: #219ebc;
+  }
