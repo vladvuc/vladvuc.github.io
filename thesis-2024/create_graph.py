@@ -8,7 +8,7 @@ G = nx.DiGraph()
 nodes = {
     'Agent': {
         'label': 'Agent',
-        'title': 'This is the class Agent. \nIt represents an entity that can perform actions.',
+        'title': 'This is the class Agent. \nIt represents an entity that can \nperform actions.',
         'color': '#FFB702',
         'font': {'color': '#023047'}
     },
@@ -56,7 +56,7 @@ nodes = {
     },
     'Interaction': {
         'label': 'Interaction',
-        'title': 'This is the Interaction class. \nIt represents the interaction \npossible between an Agent and HI-Scenario.',
+        'title': 'This is the Interaction class. \nIt represents the interaction \npossible between an Agent \nand HI-Scenario.',
         'color': '#219EBC',
         'font': {'color': '#023047'}
     },
@@ -80,7 +80,7 @@ nodes = {
     },
     'Information Processing': {
         'label': 'Information Processing',
-        'title': 'This is the class which defines \nhow the information is being processed by the agent \nand what is methodology used',
+        'title': 'This is the class which defines \nhow the information is being \nprocessed by the agent \nand what is method used',
         'color': '#219EBC',
         'font': {'color': '#023047'}
     },
@@ -189,6 +189,6 @@ net.set_options(options)
 html_content = net.generate_html()
 
 # Save HTML file
-with open('simple_graph.html', 'w') as f:
+with open('graph.html', 'w') as f:
     f.write(html_content)
     
