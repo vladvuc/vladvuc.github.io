@@ -6,6 +6,8 @@ Inspired by the digital age, the quest has been to put the website on the intern
 
 <img align="right" width="100" height="100"  title="Image title" alt="Another image" width="350" src="files/img/favicon.png">
 
+![Example image]('files/img/Vlad_profile_xs.png', "Hello")
+
 ## The Wolfman
 
 The term **Wolfman** typically refers to a fictional character or archetype commonly found in folklore, mythology, and popular culture. The Wolfman is often depicted as a human who possesses the ability to transform into a wolf or a wolf-like creature, typically during the full moon.
@@ -27,20 +29,6 @@ whise allergy IS NULL;
 ### Example of third heading
 
 H<sub>2</sub>O
-
-## Trying to figure out LaTeX
-
-```latex
-a_1 = b_1 + c_1  
-a_2 = b_2 + c_2 - d_2 + e_2
-```
-
-Из неког разлога Латекс не функционише, па не знам како ћемо то да решимо, али знам да хоћемо.
-
-Atoms are the fundamental building blocks of matter, the smallest units that retain the characteristics of an element. Composed of a dense nucleus containing protons and neutrons, surrounded by a cloud of electrons, atoms exhibit incredible diversity and form the basis of everything we see in the universe. They combine and interact to create molecules, which in turn give rise to the vast array of substances and materials around us. Understanding the behavior and properties of atoms has been crucial in advancing fields such as chemistry and physics, shaping our understanding of the world at the most fundamental level. Atoms are remarkable in their simplicity yet hold the key to unraveling the complexities of the universe.
-
-> Ths is a Python script:
->> THIS IS ANOTHER LINE INSIDE OF LINE
 
 ```python
 def get_invoice(arg):
