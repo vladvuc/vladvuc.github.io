@@ -1,16 +1,12 @@
 # The beginning
 
-Once upon a time, in a small town nestled amidst rolling hills, this is just an example of a website.
-
-Inspired by the digital age, the quest has been to put the website on the internet.
+Once upon a time, in a small town nestled amidst rolling hills, this is just an example of a website. Inspired by the digital age, the quest has been to put the website on the internet.
 
 <img align="right" width="100" height="100"  title="Image title" alt="Another image" width="350" src="../files/img/favicon.png">
 
 ## The Wolfman
 
 The term **Wolfman** typically refers to a fictional character or archetype commonly found in folklore, mythology, and popular culture. The Wolfman is often depicted as a human who possesses the ability to transform into a wolf or a wolf-like creature, typically during the full moon.
-
-![Example](../files/img/Vlad_profile_xs.png)
 
 The concept of the Wolfman has its roots in various mythologies and legends, such as werewolf folklore. 
 
