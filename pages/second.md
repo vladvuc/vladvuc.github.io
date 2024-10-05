@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Second Page"
+permalink: /second/
+---
+
 # Second page
 
 This is just an example from the photography portfolio
