@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Photography Portfolio"
-permalink: /portfolio/
+permalink: /second/
 ---
 
 # Second page
