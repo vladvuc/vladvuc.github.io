@@ -4,7 +4,7 @@ title: "Second Page"
 permalink: /second/
 ---
 
-# Second page
+# Photography Example Portfolio
 
 This is just an example from the photography portfolio
 
