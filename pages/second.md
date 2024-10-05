@@ -1,9 +1,3 @@
----
-layout: page
-title: "Photography Portfolio"
-permalink: /second/
----
-
 # Second page
 
 This is just an example from the photography portfolio
