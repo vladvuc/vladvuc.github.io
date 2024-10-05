@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Second Page"
+permalink: /second/
+---
+
 # Photography Example Portfolio
 
 This is just an example from the photography portfolio
