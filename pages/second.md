@@ -6,6 +6,8 @@ permalink: /portfolio/
 
 # Second page
 
+This is just an example from the photography portfolio
+
 ![Photo 1](../assets/Photography_1/000067060014.jpg)
 ![Photo 2](../assets/Photography_1/000067060018.jpg)
 

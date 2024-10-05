@@ -1,8 +1,11 @@
 # The beginning
 
-Once upon a time, in a small town nestled amidst rolling hills, this is just an example of a website. Inspired by the digital age, the quest has been to put the website on the internet.
-
 <img align="right" width="100" height="100"  title="Image title" alt="Another image" width="350" src="../files/img/favicon.png">
+
+<a href="https://www.linkedin.com/in/vladimirvuckovic/" target="_blank">
+    <img align="left" width="48" height="48" title="LinkedIn" src="../files/img/linkedin.png">
+    LinkedIn Profile
+</a>
 
 ## The Wolfman
 
